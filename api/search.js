@@ -84,22 +84,10 @@ function getRealFurnitureData(query) {
     'sofa': [
       {
         id: 'sofa_1',
-        title: 'Andes Sectional Sofa - Stone (Twill)',
-        price: 1299,
-        imageUrl: 'https://assets.weimgs.com/weimgs/rk/images/wcm/products/202339/0049/west-elm-andes-sectional-sofa-1-o.jpg',
-        description: 'Comfortable sectional with clean lines and premium upholstery',
-        style: 'modern',
-        colors: ['#D3D3D3', '#F5F5F5', '#E0E0E0'],
-        source: 'westelm',
-        url: 'https://www.westelm.com/products/andes-sectional-sofa-h2835/',
-        location: 'Available online'
-      },
-      {
-        id: 'sofa_2', 
         title: 'KLIPPAN Loveseat - Vissle Gray',
         price: 179,
         imageUrl: 'https://www.ikea.com/us/en/images/products/klippan-loveseat-vissle-gray__0325472_pe517964_s5.jpg',
-        description: 'Minimalist design with light wood frame and neutral cushions',
+        description: 'Minimalist design with removable cover and neutral cushions',
         style: 'scandinavian',
         colors: ['#F5F5DC', '#DDBEA9', '#CB997E'],
         source: 'ikea',
@@ -107,33 +95,33 @@ function getRealFurnitureData(query) {
         location: 'In stores & online'
       },
       {
+        id: 'sofa_2',
+        title: 'EKTORP Three-Seat Sofa - Blekinge White',
+        price: 399,
+        imageUrl: 'https://www.ikea.com/us/en/images/products/ektorp-three-seat-sofa-blekinge-white__0818581_pe774490_s5.jpg',
+        description: 'Classic style sofa with removable washable covers',
+        style: 'traditional',
+        colors: ['#FFFFFF', '#F5F5F5', '#E0E0E0'],
+        source: 'ikea',
+        url: 'https://www.ikea.com/us/en/p/ektorp-three-seat-sofa-blekinge-white-s59132617/',
+        location: 'In stores & online'
+      },
+      {
         id: 'sofa_3',
-        title: 'Mid-Century Leather Sofa - Camel',
-        price: 1999,
-        imageUrl: 'https://assets.weimgs.com/weimgs/rk/images/wcm/products/202347/0015/axel-leather-sofa-1-o.jpg',
-        description: 'Premium leather sofa with mid-century modern design',
+        title: 'SÖDERHAMN Three-Seat Sofa - Samsta Dark Gray',
+        price: 599,
+        imageUrl: 'https://www.ikea.com/us/en/images/products/soederhamn-three-seat-sofa-samsta-dark-gray__0866671_pe623505_s5.jpg',
+        description: 'Modern modular sofa with low back design',
         style: 'modern',
-        colors: ['#D2691E', '#8B4513', '#F4A460'],
-        source: 'westelm',
-        url: 'https://www.westelm.com/products/axel-leather-sofa-h6582/',
-        location: 'Available online'
+        colors: ['#2F4F4F', '#696969', '#A9A9A9'],
+        source: 'ikea',
+        url: 'https://www.ikea.com/us/en/p/soederhamn-three-seat-sofa-samsta-dark-gray-s39305641/',
+        location: 'In stores & online'
       }
     ],
     'chair': [
       {
         id: 'chair_1',
-        title: 'Roar + Rabbit Swivel Chair - Performance Velvet',
-        price: 449,
-        imageUrl: 'https://assets.weimgs.com/weimgs/rk/images/wcm/products/202349/0014/roar-rabbit-swivel-chair-1-o.jpg',
-        description: 'Luxurious velvet chair with brass legs and swivel base',
-        style: 'modern',
-        colors: ['#4682B4', '#FFD700', '#2F4F4F'],
-        source: 'westelm',
-        url: 'https://www.westelm.com/products/roar-rabbit-swivel-chair-h6051/',
-        location: 'Available online'
-      },
-      {
-        id: 'chair_2',
         title: 'STRANDMON Wing Chair - Nordvalla Dark Gray',
         price: 279,
         imageUrl: 'https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325811_pe517964_s5.jpg',
@@ -143,23 +131,35 @@ function getRealFurnitureData(query) {
         source: 'ikea',
         url: 'https://www.ikea.com/us/en/p/strandmon-wing-chair-nordvalla-dark-gray-20446741/',
         location: 'In stores & online'
+      },
+      {
+        id: 'chair_2',
+        title: 'POÄNG Armchair - Birch Veneer, Knisa Light Beige',
+        price: 149,
+        imageUrl: 'https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0325948_pe517964_s5.jpg',
+        description: 'Iconic bentwood armchair with comfortable cushion',
+        style: 'scandinavian',
+        colors: ['#F5DEB3', '#D2B48C', '#DEB887'],
+        source: 'ikea',
+        url: 'https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-knisa-light-beige-s29275781/',
+        location: 'In stores & online'
+      },
+      {
+        id: 'chair_3',
+        title: 'KULLABERG Swivel Chair - Pine, Black',
+        price: 119,
+        imageUrl: 'https://www.ikea.com/us/en/images/products/kullaberg-swivel-chair-pine-black__0724713_pe734568_s5.jpg',
+        description: 'Industrial style swivel chair with pine and metal',
+        style: 'industrial',
+        colors: ['#8B4513', '#2F2F2F', '#696969'],
+        source: 'ikea',
+        url: 'https://www.ikea.com/us/en/p/kullaberg-swivel-chair-pine-black-00347212/',
+        location: 'In stores & online'
       }
     ],
     'table': [
       {
         id: 'table_1',
-        title: 'Penelope Live-Edge Coffee Table',
-        price: 799,
-        imageUrl: 'https://assets.weimgs.com/weimgs/rk/images/wcm/products/202348/0088/penelope-live-edge-coffee-table-1-o.jpg',
-        description: 'Natural walnut wood with live edge detail and metal legs',
-        style: 'rustic',
-        colors: ['#8B4513', '#DEB887', '#D2691E'],
-        source: 'westelm',
-        url: 'https://www.westelm.com/products/penelope-live-edge-coffee-table-h6419/',
-        location: 'Available online'
-      },
-      {
-        id: 'table_2',
         title: 'HEMNES Coffee Table - White Stain',
         price: 149,
         imageUrl: 'https://www.ikea.com/us/en/images/products/hemnes-coffee-table-white-stain__0318329_pe514320_s5.jpg',
@@ -169,20 +169,56 @@ function getRealFurnitureData(query) {
         source: 'ikea',
         url: 'https://www.ikea.com/us/en/p/hemnes-coffee-table-white-stain-80363877/',
         location: 'In stores & online'
+      },
+      {
+        id: 'table_2',
+        title: 'LACK Coffee Table - Black-Brown',
+        price: 25,
+        imageUrl: 'https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__0710102_pe727605_s5.jpg',
+        description: 'Simple and affordable coffee table with clean design',
+        style: 'modern',
+        colors: ['#2F2F2F', '#1C1C1C', '#000000'],
+        source: 'ikea',
+        url: 'https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-20011408/',
+        location: 'In stores & online'
+      },
+      {
+        id: 'table_3',
+        title: 'STOCKHOLM Coffee Table - Walnut Veneer',
+        price: 299,
+        imageUrl: 'https://www.ikea.com/us/en/images/products/stockholm-coffee-table-walnut-veneer__0325968_pe517964_s5.jpg',
+        description: 'Mid-century inspired coffee table with walnut veneer',
+        style: 'scandinavian',
+        colors: ['#8B4513', '#DEB887', '#D2691E'],
+        source: 'ikea',
+        url: 'https://www.ikea.com/us/en/p/stockholm-coffee-table-walnut-veneer-20239715/',
+        location: 'In stores & online'
       }
     ],
     'bed': [
       {
         id: 'bed_1',
-        title: 'Andes Deco Upholstered Bed',
-        price: 999,
-        imageUrl: 'https://assets.weimgs.com/weimgs/rk/images/wcm/products/202347/0012/andes-deco-upholstered-bed-1-o.jpg',
-        description: 'Modern upholstered bed with channel tufting',
+        title: 'MALM Bed Frame - White',
+        price: 179,
+        imageUrl: 'https://www.ikea.com/us/en/images/products/malm-bed-frame-white__0749131_pe745499_s5.jpg',
+        description: 'Modern bed frame with clean lines and veneer surface',
         style: 'modern',
-        colors: ['#F5F5DC', '#D3D3D3', '#C0C0C0'],
-        source: 'westelm',
-        url: 'https://www.westelm.com/products/andes-deco-upholstered-bed-h6423/',
-        location: 'Available online'
+        colors: ['#FFFFFF', '#F5F5F5', '#E0E0E0'],
+        source: 'ikea',
+        url: 'https://www.ikea.com/us/en/p/malm-bed-frame-white-s49009475/',
+        location: 'In stores & online'
+      },
+      {
+        id: 'bed_2',
+        title: 'HEMNES Bed Frame - White Stain',
+        price: 279,
+        imageUrl: 'https://www.ikea.com/us/en/images/products/hemnes-bed-frame-white-stain__0268301_pe406267_s5.jpg',
+        description: 'Traditional style bed frame with high footboard',
+        style: 'traditional',
+        colors: ['#FFFFFF', '#F8F8FF', '#F0F0F0'],
+        source: 'ikea',
+        url: 'https://www.ikea.com/us/en/p/hemnes-bed-frame-white-stain-s79006049/',
+        location: 'In stores & online'
       }
     ],
     'lamp': [
@@ -208,27 +244,27 @@ function getRealFurnitureData(query) {
   const defaultResults = [
     {
       id: 'default_1',
-      title: `Modern ${query.charAt(0).toUpperCase() + query.slice(1)} - Contemporary Design`,
-      price: 599,
-      imageUrl: 'https://assets.weimgs.com/weimgs/rk/images/wcm/products/202349/0014/roar-rabbit-swivel-chair-1-o.jpg',
-      description: `Stylish ${query} with modern design elements`,
-      style: 'modern',
-      colors: ['#FFFFFF', '#000000', '#808080'],
-      source: 'westelm',
-      url: 'https://www.westelm.com/',
-      location: 'Available online'
-    },
-    {
-      id: 'default_2',
-      title: `Scandinavian ${query.charAt(0).toUpperCase() + query.slice(1)} - Natural Wood`,
-      price: 299,
+      title: `IKEA ${query.charAt(0).toUpperCase() + query.slice(1)} - Modern Design`,
+      price: 199,
       imageUrl: 'https://www.ikea.com/us/en/images/products/klippan-loveseat-vissle-gray__0325472_pe517964_s5.jpg',
-      description: `Beautiful ${query} with Scandinavian design principles`,
-      style: 'scandinavian',
+      description: `Stylish ${query} with clean, modern design`,
+      style: 'modern',
       colors: ['#F5F5DC', '#DDBEA9', '#CB997E'],
       source: 'ikea',
       url: 'https://www.ikea.com/',
-      location: 'In stores nationwide'
+      location: 'In stores & online'
+    },
+    {
+      id: 'default_2',
+      title: `HEMNES ${query.charAt(0).toUpperCase() + query.slice(1)} - Traditional Style`,
+      price: 149,
+      imageUrl: 'https://www.ikea.com/us/en/images/products/hemnes-coffee-table-white-stain__0318329_pe514320_s5.jpg',
+      description: `Traditional ${query} with practical storage`,
+      style: 'traditional',
+      colors: ['#FFFFFF', '#F5F5F5', '#E8E8E8'],
+      source: 'ikea',
+      url: 'https://www.ikea.com/',
+      location: 'In stores & online'
     }
   ];
   
@@ -236,33 +272,33 @@ function getRealFurnitureData(query) {
 }
 
 function getFallbackResults(query, filters) {
-  // High-quality fallback results with real furniture images
+  // High-quality fallback results with IKEA furniture images
   const fallbackResults = [
     {
       id: 'fallback_1',
-      title: `Premium ${query} - Designer Collection`,
-      price: 699,
-      imageUrl: 'https://assets.weimgs.com/weimgs/rk/images/wcm/products/202349/0014/roar-rabbit-swivel-chair-1-o.jpg',
-      description: `High-quality ${query} from our designer collection`,
+      title: `STRANDMON ${query} - Classic Design`,
+      price: 279,
+      imageUrl: 'https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325811_pe517964_s5.jpg',
+      description: `Classic ${query} with traditional styling`,
       category: query.toLowerCase(),
-      style: 'modern',
-      colors: ['#4682B4', '#FFD700', '#FFFFFF'],
-      source: 'westelm',
-      url: 'https://www.westelm.com/',
-      location: 'Available online'
+      style: 'traditional',
+      colors: ['#2F4F4F', '#696969', '#A9A9A9'],
+      source: 'ikea',
+      url: 'https://www.ikea.com/',
+      location: 'In stores & online'
     },
     {
       id: 'fallback_2',
-      title: `Scandinavian ${query} - Natural Wood`,
-      price: 449,
-      imageUrl: 'https://www.ikea.com/us/en/images/products/klippan-loveseat-vissle-gray__0325472_pe517964_s5.jpg',
+      title: `POÄNG ${query} - Scandinavian Style`,
+      price: 149,
+      imageUrl: 'https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0325948_pe517964_s5.jpg',
       description: `Beautiful ${query} with Scandinavian design principles`,
       category: query.toLowerCase(),
       style: 'scandinavian',
-      colors: ['#F5F5DC', '#DDBEA9', '#CB997E'],
+      colors: ['#F5DEB3', '#D2B48C', '#DEB887'],
       source: 'ikea',
       url: 'https://www.ikea.com/',
-      location: 'In stores nationwide'
+      location: 'In stores & online'
     }
   ];
 
