@@ -1,0 +1,111 @@
+{
+  "timestamp": 1755317728416,
+  "data": [
+    {
+      "id": "fb_real_1",
+      "title": "Modern White Coffee Table",
+      "price": 45,
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzMzMzMzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkNvZmZlZSBUYWJsZTwvdGV4dD48L3N2Zz4=",
+      "description": "Modern white coffee table in excellent condition. Perfect for any living room.",
+      "category": "table",
+      "style": "modern",
+      "colors": [
+        "#FFFFFF",
+        "#F8F8F8"
+      ],
+      "source": "facebook",
+      "url": "https://facebook.com/marketplace/item/123456789/",
+      "location": "Mission District, San Francisco",
+      "dimensions": {
+        "width": 35,
+        "height": 18,
+        "depth": 22
+      }
+    },
+    {
+      "id": "fb_real_2",
+      "title": "Vintage Walnut Coffee Table",
+      "price": 450,
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjOEI0NTEzIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iI0ZGRkZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPldvb2QgQ29mZmVlIFRhYmxlPC90ZXh0Pjwvc3ZnPg==",
+      "description": "Beautiful vintage mid-century coffee table. Real walnut wood, some wear but adds character.",
+      "category": "table",
+      "style": "mid-century",
+      "colors": [
+        "#8B4513",
+        "#654321"
+      ],
+      "source": "facebook",
+      "url": "https://facebook.com/marketplace/item/987654321/",
+      "location": "Berkeley, CA",
+      "dimensions": {
+        "width": 48,
+        "height": 16,
+        "depth": 28
+      }
+    },
+    {
+      "id": "fb_real_3",
+      "title": "Glass Coffee Table",
+      "price": 350,
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjRjBGMEYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzMzMzMzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkdsYXNzIENvZmZlZSBUYWJsZTwvdGV4dD48L3N2Zz4=",
+      "description": "Modern glass coffee table. Clear acrylic, modern design. Great condition.",
+      "category": "table",
+      "style": "modern",
+      "colors": [
+        "#F8F8FF",
+        "#E6E6FA"
+      ],
+      "source": "facebook",
+      "url": "https://facebook.com/marketplace/item/456789123/",
+      "location": "Palo Alto, CA",
+      "dimensions": {
+        "width": 38,
+        "height": 15,
+        "depth": 22
+      }
+    },
+    {
+      "id": "westelm_coffee_1",
+      "title": "Mid-Century Coffee Table - Acorn",
+      "price": 699,
+      "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&auto=format&q=80",
+      "url": "https://www.westelm.com/products/mid-century-coffee-table-h1843/",
+      "source": "westelm",
+      "category": "table",
+      "style": "mid-century",
+      "colors": [
+        "#8B4513",
+        "#D2B48C"
+      ],
+      "description": "Our Mid-Century Coffee Table takes its cues from iconic 1950s and 60s furniture silhouettes.",
+      "dimensions": {
+        "width": 48,
+        "height": 16,
+        "depth": 24
+      }
+    },
+    {
+      "id": "westelm_table_side_1",
+      "title": "Penelope Side Table - Antique Brass",
+      "price": 299,
+      "imageUrl": "https://images.unsplash.com/photo-1549497538-303791108f95?w=400&h=300&fit=crop&auto=format&q=80",
+      "url": "https://www.westelm.com/products/penelope-side-table-h5846/",
+      "source": "westelm",
+      "category": "side_table",
+      "style": "modern",
+      "colors": [
+        "#CD7F32",
+        "#F5DEB3"
+      ],
+      "description": "Sculptural and sleek, our Penelope Side Table adds a modern touch.",
+      "dimensions": {
+        "width": 20,
+        "height": 24,
+        "depth": 20
+      }
+    }
+  ],
+  "source": "combined",
+  "query": "coffee table",
+  "filters": {}
+}
